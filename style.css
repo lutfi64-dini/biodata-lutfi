@@ -1,0 +1,135 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f5f7f4;
+    color: #2b2b2b;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1020px;
+    margin: 80px auto;
+    background: #ffffff;
+    display: flex;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 33%;
+    background: linear-gradient(180deg, #5f7c6a, #3f5f52);
+    color: #f1f5f2;
+    padding: 50px 40px;
+}
+
+.profile {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 24px;
+    border: 4px solid rgba(255,255,255,0.45);
+}
+
+.sidebar h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.job {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d6e2db;
+    margin-bottom: 34px;
+}
+
+/* INFO */
+.info {
+    list-style: none;
+    font-size: 14px;
+}
+
+.info li {
+    margin-bottom: 16px;
+    opacity: 0.9;
+}
+
+/* CONTENT */
+.content {
+    width: 67%;
+    padding: 55px;
+}
+
+section {
+    margin-bottom: 48px;
+}
+
+h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5f7c6a;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    width: 46px;
+    height: 2px;
+    background: linear-gradient(90deg, #bfa76f, transparent);
+    display: block;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #3a3a3a;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.skills span {
+    font-size: 13px;
+    padding: 9px 20px;
+    border-radius: 999px;
+    background: #eef3f0;
+    color: #3f5f52;
+    font-weight: 600;
+    border: 1px solid #dde6e1;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 16px;
+    background: #e8ece9;
+    transition: all 0.35s ease;
+}
+
+.portfolio img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
