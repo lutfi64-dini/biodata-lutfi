@@ -5,7 +5,7 @@ $email = "lutfiyahrahmadini56@gmail.com";
 $telepon = "087824761592";
 $alamat = "Bekasi, Indonesia";
 ?>
-
+ 
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -19,7 +19,7 @@ $alamat = "Bekasi, Indonesia";
 
     <!-- SIDEBAR -->
     <aside class="sidebar">
-        <img src="diriqu.jpeg" class="profile">
+        <img src="diriquu.jpeg" class="profile">
         <h2><?= $nama ?></h2>
         <p class="job"><?= $profesi ?></p>
 
@@ -76,7 +76,7 @@ $alamat = "Bekasi, Indonesia";
 
         <section>
             <h3>Portfolio</h3>
-            <div class="portfolio">
+            <div class="portofolio">
                 <img src="sertif huaweii.jpeg">
                 <img src="sertif pramuka.jpeg">
             </div>
